@@ -46,7 +46,8 @@ const TabsLayout = () => {
           position: "absolute",
           overflow: "hidden",
           borderWidth: 0,
-          borderColor: "#0f0D23", shadowOpacity:0
+          borderColor: "#0f0D23",
+          shadowOpacity: 0,
         },
       }}
     >
