@@ -54,8 +54,6 @@ const TabsLayout = () => {
       {[
         { title: "Home", screen: "index", icon: icons.home },
         { title: "Search", screen: "search", icon: icons.search },
-        { title: "Saved", screen: "saved", icon: icons.save },
-        { title: "Profile", screen: "profile", icon: icons.person },
       ].map((tab, idx) => (
         <Tabs.Screen
           key={tab.title + idx}

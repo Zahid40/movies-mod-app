@@ -36,6 +36,8 @@ export default function Index() {
     queryFn: () => getTrendingMovies(),
   });
 
+  
+
   return (
     <View className="flex-1 bg-primary ">
       <Image
